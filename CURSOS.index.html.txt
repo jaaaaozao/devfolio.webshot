@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo VIP ENEM | Acesso Vitalício a Cursos Premium</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Reset Moderno */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        
+        /* Cores Atualizadas */
+        :root {
+            --roxo-vip: #6A0DAD;
+            --verde-energia: #00C853;
+            --laranja: #FF6D00;
+            --branco: #FFFFFF;
+            --fundo-cinza: #F5F5F5;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: var(--fundo-cinza);
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Hero Section - Impacto Imediato */
+        .hero {
+            background: linear-gradient(135deg, var(--roxo-vip), #8E24AA);
+            color: var(--branco);
+            text-align: center;
+            padding: 100px 20px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        
+        .hero .destaque {
+            color: var(--laranja);
+            display: inline-block;
+            animation: pulse 1.5s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .btn-whatsapp {
+            background: var(--verde-energia);
+            color: white;
+            border: none;
+            padding: 16px 32px;
+            font-weight: bold;
+            border-radius: 50px;
+            margin-top: 30px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+            display: inline-block;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(0,200,83,0.4);
+        }
+        
+        .btn-whatsapp:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0,200,83,0.6);
+        }
+        
+        /* Seções Modernas */
+        .section-title {
+            font-size: 2.2rem;
+            margin-bottom: 50px;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-title:after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: var(--laranja);
+            border-radius: 2px;
+        }
+        
+        /* Cards Interativos */
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+            margin-bottom: 20px;
+        }
+        
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+        
+        .card h3 {
+            color: var(--roxo-vip);
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+        }
+        
+        .card ul {
+            padding-left: 20px;
+        }
+        
+        .card li {
+            margin-bottom: 8px;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        .card li:before {
+            content: '✓';
+            color: var(--verde-energia);
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+        
+        /* WhatsApp Flutuante Animado */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 100;
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+        
+        /* Destaque de Preço */
+        .price-tag {
+            background: var(--laranja);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.8rem;
+            display: inline-block;
+            margin: 20px 0;
+            box-shadow: 0 4px 10px rgba(255,109,0,0.3);
+        }
+        
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .section-title {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Acesso <span class="destaque">VITALÍCIO</span> aos Melhores Cursos para <span class="destaque">ENEM</span></h1>
+            <p>Grupo VIP no Telegram com <strong>todo conteúdo dos melhores cursinhos</strong> por um preço que cabe no seu bolso!</p>
+            <div class="price-tag">R$ 49,90</div>
+            <a href="https://wa.me/5543999026717?text=Quero%20entrar%20no%20grupo%20VIP%20do%20ENEM!" class="btn-whatsapp">
+                <i class="fab fa-whatsapp"></i> GARANTIR ACESSO
+            </a>
+            <p style="margin-top: 20px; font-size: 0.9rem;">🎯 Preço promocional por tempo limitado!</p>
+        </div>
+    </section>
+    
+    <!-- Sobre Nós -->
+    <section style="padding: 80px 0; background: white;">
+        <div class="container">
+            <h2 class="section-title">Quem Somos</h2>
+            <div class="card" style="max-width: 800px; margin: 0 auto;">
+                <p style="font-size: 1.1rem; margin-bottom: 20px;">Olá, tudo bem? Espero que sim!</p>
+                <p style="font-size: 1.1rem; margin-bottom: 20px;">Somos o <strong>mais completo grupo VIP no Telegram</strong> com todos os cursos da atualidade para o ENEM e vestibulares!</p>
+                <p style="font-size: 1.1rem;">Por apenas <strong>R$ 49,90</strong> você tem acesso <strong>VITALÍCIO</strong> a um acervo que custaria mais de R$ 5.000,00 se comprado separadamente!</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Conteúdos do Grupo -->
+    <section style="padding: 80px 0; background: var(--fundo-cinza);">
+        <div class="container">
+            <h2 class="section-title">O que você vai encontrar</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+                <div class="card">
+                    <h3>📚 Materiais Exclusivos</h3>
+                    <ul>
+                        <li>ENEM revisão em PDF</li>
+                        <li>Mapas mentais de todas matérias</li>
+                        <li>Tabelas de conectivos</li>
+                        <li>Dicionário de alusões</li>
+                        <li>Lista de palavras para citações</li>
+                        <li>Tabelas de exatas e biológicas</li>
+                        <li>Apostilas de redação</li>
+                        <li>E-book de 250 macetes</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>🎓 Cursinhos Premium</h3>
+                    <ul>
+                        <li>Aprova Total (vídeo-aulas + PDFs)</li>
+                        <li>Fernanda Pessoa (redação e humanas)</li>
+                        <li>Ferreto (exatas completas)</li>
+                        <li>Jana Rabelo (literatura)</li>
+                        <li>Poliedro (material completo)</li>
+                        <li>Amentoria 2024 (atualizado)</li>
+                        <li>Terra Negra Geo</li>
+                        <li>Gabarita Geo</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>⚡ Ferramentas de Estudo</h3>
+                    <ul>
+                        <li>Cronogramas de cursinhos</li>
+                        <li>Revisões e resumos</li>
+                        <li>Simulados exclusivos</li>
+                        <li>PDFs organizados por matéria</li>
+                        <li>Estratégias comprovadas</li>
+                        <li>Atualizações constantes</li>
+                        <li>Suporte via Telegram</li>
+                        <li>Dicas de aprovados</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Depoimentos -->
+    <section style="padding: 80px 0; background: white;">
+        <div class="container">
+            <h2 class="section-title">Quem já está dentro</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+                <div class="card">
+                    <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                        <div style="width: 50px; height: 50px; background: #ddd; border-radius: 50%; margin-right: 15px;"></div>
+                        <div>
+                            <h4 style="color: var(--roxo-vip);">Ana Clara</h4>
+                            <p style="color: var(--laranja); font-size: 0.9rem;">Aprovada em Medicina</p>
+                        </div>
+                    </div>
+                    <p>"Comprei 3 cursinhos separados antes de achar esse grupo. Economizei mais de R$ 2.000 e o material é melhor!"</p>
+                </div>
+                <div class="card">
+                    <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                        <div style="width: 50px; height: 50px; background: #ddd; border-radius: 50%; margin-right: 15px;"></div>
+                        <div>
+                            <h4 style="color: var(--roxo-vip);">Lucas</h4>
+                            <p style="color: var(--laranja); font-size: 0.9rem;">Aprovado em Engenharia</p>
+                        </div>
+                    </div>
+                    <p>"O material do Ferreto e os mapas mentais me salvaram. Fiz 920 em matemática graças a esse grupo!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Final -->
+    <section style="padding: 80px 20px; background: linear-gradient(135deg, var(--roxo-vip), #8E24AA); color: white; text-align: center;">
+        <div class="container">
+            <h2 style="font-size: 2rem; margin-bottom: 20px;">Não perca essa chance!</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 30px; max-width: 700px; margin-left: auto; margin-right: auto;">
+                Por <strong>MENOS DE R$ 0,20 POR DIA</strong> você tem acesso a tudo que precisa para sua aprovação!
+            </p>
+            <div class="price-tag" style="background: white; color: var(--roxo-vip);">R$ 49,90</div>
+            <a href="https://wa.me/5543999026717?text=Quero%20comprar%20o%20acesso%20vital%C3%ADcio%20ao%20grupo%20VIP!" class="btn-whatsapp" style="background: white; color: var(--roxo-vip); margin-top: 30px;">
+                <i class="fab fa-whatsapp"></i> QUERO ENTRAR AGORA
+            </a>
+            <p style="margin-top: 20px; font-size: 0.9rem;">⚠️ Preço pode aumentar a qualquer momento!</p>
+        </div>
+    </section>
+    
+    <!-- WhatsApp Flutuante -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/5543999026717?text=Oi,%20quero%20saber%20mais%20sobre%20o%20grupo%20VIP!" style="background: #25D366; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 5px 20px rgba(37,211,102,0.5);">
+            <i class="fab fa-whatsapp" style="font-size: 30px;"></i>
+        </a>
+    </div>
+    
+    <script>
+        // Contador de vendas dinâmico
+        document.addEventListener('DOMContentLoaded', function() {
+            // Altere para o número real de vagas
+            let vendas = 127;
+            const contadorElement = document.createElement('div');
+            contadorElement.style.background = 'var(--laranja)';
+            contadorElement.style.color = 'white';
+            contadorElement.style.padding = '15px';
+            contadorElement.style.textAlign = 'center';
+            contadorElement.style.fontWeight = 'bold';
+            contadorElement.style.position = 'fixed';
+            contadorElement.style.top = '0';
+            contadorElement.style.width = '100%';
+            contadorElement.style.zIndex = '100';
+            contadorElement.textContent = `🚀 ${vendas} PESSOAS JÁ ADQUIRIRAM HOJE!`;
+            document.body.prepend(contadorElement);
+            
+            // Aumenta o contador a cada 5 minutos (efeito psicológico)
+            setInterval(() => {
+                vendas++;
+                contadorElement.textContent = `🚀 ${vendas} PESSOAS JÁ ADQUIRIRAM HOJE!`;
+            }, 300000);
+            
+            // Pop-up de saída
+            window.onbeforeunload = function() {
+                return "Tem certeza que quer sair? Você pode perder o desconto vitalício!";
+            };
+        });
+    </script>
+</body>
+</html>
